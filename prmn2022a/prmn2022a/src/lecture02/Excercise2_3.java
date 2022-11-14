@@ -13,7 +13,6 @@ public class Excercise2_3 {
         gasStation.refuel(car);
         car.startEngine();
         car.run();
-        car.run();
 
     }
 }
