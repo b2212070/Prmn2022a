@@ -5,7 +5,6 @@ public class Exercise3_4 {
     public static void main(String[] args) {
 
         ArrayList<Vegetable> arrayList = new ArrayList<>();
-
         Vegetable[] vegetables = {
                 new Vegetable("にんじん", 117),
                 new Vegetable("たまねぎ", 120),

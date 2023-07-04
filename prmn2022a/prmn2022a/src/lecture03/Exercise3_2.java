@@ -9,13 +9,13 @@ public class Exercise3_2 {
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> arrayList = new ArrayList<>();
 
-        System.out.println("何行分入力しますか？");
+        System.out.print("何行分入力しますか？:");
 
         int number = scanner.nextInt();
-        String empty = scanner.nextLine();
+        scanner.nextLine();
 
         for (int i = 0; i < number; i++) {
-            System.out.println(i + "行目：");
+            System.out.print(i + 1+"行目：");
             String text = scanner.nextLine();
             arrayList.add(text);
         }

@@ -10,6 +10,7 @@ public class Vegetable {
         this.value = value;
     }
 
+
     void print() {
         System.out.println(name + " は " + value + " 円");
     }
